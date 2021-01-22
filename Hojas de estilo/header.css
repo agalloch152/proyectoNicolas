@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.principal {
+	background-image: linear-gradient(to right, #c6d7e5, #bcd5e5, #b2d3e4, #a6d1e3, #9acfe1);
+	background: cyan;
+	
+}
+
+.principal__flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.principal__navegacion {
+	list-style: none;
+	
+}
+
+.principal__navegacion li {
+	
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.principal__navegacion a {
+	text-decoration: none;
+	color: #000000;
+	
+}
+
+.principal__navegacion li > a:hover {
+	
+
+	border: 3px solid #81FF0E;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	color: #4C4C4C;
+	
+	
+}
+
